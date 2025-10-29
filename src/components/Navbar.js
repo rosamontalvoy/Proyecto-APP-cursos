@@ -10,6 +10,9 @@ function Navbar() {
         <li><Link to="/idiomas">Idiomas</Link></li>
         <li><Link to="/fp">Formación Profesional</Link></li>
         <li><Link to="/infantil-primaria">Infantil y Primaria</Link></li>
+        <li><Link to="/cursos">Cursos</Link></li>
+        <li><Link to="/usuarios">Usuarios</Link></li>
+        <li><Link to="/inscripcion">Inscribirse en un curso</Link></li>
       </ul>
     </nav>
   );

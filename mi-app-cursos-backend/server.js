@@ -35,7 +35,7 @@ sequelize.sync({ force: true }).then(async () => {
     { nombre: 'Curso de Inglés B1', descripcion: 'Preparación B1', CategoryId: categorias[1].id },
   ]);
 
-  app.listen(3000, () => {
-    console.log('Servidor en http://localhost:3000 🚀');
+  app.listen(5000, () => {
+    console.log('Servidor en http://localhost:5000 🚀');
   });
 });
